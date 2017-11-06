@@ -31,19 +31,19 @@ Add your new aliases
 
 Package Management
 Several tools are available for interacting with Ubuntu's package management system, from simple command-line utilities
-1-dpkg:
+- dpkg:
 dpkg is a package manager for Debian-based systems. It can install, remove, and build packages, but unlike other package management systems, it cannot automatically download and install packages or their dependencies. This section covers using dpkg to manage locally installed packages:
--You can install a local .deb file by entering:
+- You can install a local .deb file by entering:
 sudo dpkg -i zip_3.0-4_i386.deb
-2-Apt:
+2- Apt:
 The apt command is a powerful command-line tool, which works with Ubuntu's Advanced Packaging Tool (APT) performing such functions as installation of new software packages, upgrade of existing software packages, updating of the package list index, and even upgrading the entire Ubuntu system.
--Install a Package: Installation of packages using the apt tool is quite simple. For example, to install the network scanner nmap, type the following:
+- Install a Package: Installation of packages using the apt tool is quite simple. For example, to install the network scanner nmap, type the following:
 sudo apt install nmap
--Update the Package Index: The APT package index is essentially a database of available packages from the repositories defined in the /etc/apt/sources.list file and in the /etc/apt/sources.list.d directory. To update the local package index with the latest changes made in the repositories, type the following:
+- Update the Package Index: The APT package index is essentially a database of available packages from the repositories defined in the /etc/apt/sources.list file and in the /etc/apt/sources.list.d directory. To update the local package index with the latest changes made in the repositories, type the following:
 sudo apt update
--Upgrade Packages: Over time, updated versions of packages currently installed on your computer may become available from the package repositories (for example security updates). To upgrade your system, first update your package index as outlined above, and then type:
+- Upgrade Packages: Over time, updated versions of packages currently installed on your computer may become available from the package repositories (for example security updates). To upgrade your system, first update your package index as outlined above, and then type:
 sudo apt upgrade
-2-Aptitude
+- Aptitude
 Aptitude is best suited for use in a non-graphical terminal environment to ensure proper functioning of the command keys. You may start the menu-driven interface of Aptitude as a normal user by typing the following command at a terminal prompt:
 You can also use Aptitude as a command-line tool, similar to apt. To install the nmap package with all necessary dependencies, as in the apt example, you would use the following command:
 sudo aptitude install nmap
