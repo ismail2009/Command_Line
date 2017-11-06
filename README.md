@@ -11,7 +11,7 @@ Styling Terminal
 
 ![alt text](https://www.maketecheasier.com/assets/uploads/2017/01/command-line-terminal-edit-preferences-menu-colors-tab.png)
 
-- By default, the “Use colors from system theme” option is active. Just disable it, and you can choose from built-in schemes. For example, I selected the ‘Black on light yellow’ scheme for my terminal.
+- By default, the “Use colors from system theme” option is active. Just disable it, and you can choose from built-in schemes. 
 
 
 Using Shortcuts in Terminal
